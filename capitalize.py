@@ -1,17 +1,8 @@
 def solve(s):
     
-    l = s.split()
-    
-    l1 = l[0].capitalize()
-    l2 = l[1].capitalize()
-    
-    l.clear()
-    l.append(l1)
-    l.append(l2)
-    
-    res =  ' '.join(l)
-    
-    return (res) 
+    for i in s.split():
+        s = s.replace(i,i.capitalize())
+    return s 
     
     
 if __name__ == '__main__':
