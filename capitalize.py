@@ -4,10 +4,6 @@ Given a full name, your task is to capitalize the name appropriately.'''
 
 
 
-
-
-
-
 def solve(s):
     
     for i in s.split():
